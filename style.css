@@ -1,0 +1,143 @@
+*{list-style: none; background-size: cover; position: relative;}
+.mAuto{
+    margin: 0 auto;
+}
+.tLeft{
+    text-align: left;
+}
+img.logo {
+    width: 100%;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.slidImg{
+    height: 649px;
+}
+.offerImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;   
+} 
+.card img{
+    width: 100%;
+    height: 240px;
+    border-radius: 4px;
+}
+.row{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.bgColor{
+    background: #ededed;
+}
+.secTitle{
+    margin-top: 50px;
+}
+.card{overflow: hidden;}
+.boxWrap .col-md-3 .card img{transition: .2s;}
+.boxWrap .col-md-3:hover img{transform: scale(1.07);}
+
+.bannerSec{
+    height: 400px;
+    background-position: center;
+}
+.aboutWrap{width: 100%;}
+.abTitle{
+    font-weight: 300!important;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+}
+.aboutSec{
+    background: #ededed;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.dellsec .row{
+    padding-left: 0px;
+    padding-right: 0;
+}
+.dellsec .col-md-3{
+    background-position: center;
+    height: 300px;
+    position: relative;
+    border-right: 5px solid white;
+}
+.dellsec img{
+    width: 30px;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 1px;
+}
+.dellsec h1{    
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: -16px;
+    text-transform: uppercase;
+}
+.titleUndLine{
+    width: max-content;
+    overflow: hidden;
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    display: inline-block;
+}
+.titleUndLine hr{
+    border-top: 2px solid #fff;
+    opacity: .6;
+    transition: .3s;
+    transform: scaleX(0);
+}
+.dellsec .col-md-3:hover .titleUndLine hr{transform: scaleX(1);}
+
+.contactDtl{
+    padding-left: 70px;
+    padding-top: 45px;
+    background-image: url(images/contact.png);
+    background-position: bottom;
+    color: white;
+}
+.contact_icon i {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 5px;
+    transition: .2s;
+}
+.contact_icon i:hover {
+    background: dodgerblue;
+    border-color:dodgerblue;
+}
+
+.footer{
+    padding: 20px 40px;
+}
+.footerLink {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    word-spacing: -2px;
+    margin-right: 10px;
+    color: darkred;
+}
+.footerLink:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+.commentIcon {
+    background: black;
+    width: max-content;
+    height: max-content;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+}
+.commentIcon img {
+    padding: 16px;
+    width: 64px;
+}
